@@ -39,7 +39,7 @@ def generate_response(question, engine, temperature, max_tokens):
     return answer
 
 ## #Title of the app
-st.title("AI Chatbot using Groq Models")
+"🤖 Ask Sharuk's AI Assistant (Powered by Groq)"
 
 
 
@@ -61,4 +61,5 @@ if user_input:
     response = generate_response(user_input, engine, temperature, max_tokens)
     st.write(response)
 else:
+
     st.write("Please provide a question.")
