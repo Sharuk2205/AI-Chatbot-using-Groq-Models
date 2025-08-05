@@ -1,0 +1,9 @@
+# --- Core Frameworks ---
+streamlit
+
+# --- LangChain and Groq ---
+langchain
+langchain-groq
+
+# --- Dotenv for env vars ---
+python-dotenv
